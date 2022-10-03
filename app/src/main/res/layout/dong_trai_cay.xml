@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageViewHinh"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/textviewTen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/imageViewHinh"
+        android:text="Tên"
+        android:textColor="#ff00"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textviewMoTa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textviewTen"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/imageViewHinh"
+        android:text="Mô tả"
+        android:textColor="#003cff"
+        android:textSize="22sp" />
+
+    <ImageView
+        android:id="@+id/imgPlus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/plus"
+        android:layout_toRightOf="@+id/imageViewHinh"
+        android:layout_marginLeft="230dp"
+        android:background="@null"
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgPlus"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/imageViewHinh"
+        android:background="@null"
+        android:src="@drawable/minus" />
+
+<!--    <TextView-->
+<!--        android:layout_width="34dp"-->
+<!--        android:layout_height="34dp"-->
+<!--        android:id="@+id/cong"-->
+<!--        android:layout_toRightOf="@+id/textviewTen"-->
+<!--        android:text="+"-->
+<!--        android:textSize="20dp"-->
+<!--        android:textColor="#3F5185"-->
+<!--        android:textStyle="bold"-->
+<!--        android:background="@drawable/boder"-->
+<!--        android:layout_marginLeft="150dp" />-->
+
+
+</RelativeLayout>
